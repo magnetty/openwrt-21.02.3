@@ -1,0 +1,181 @@
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/passwall/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-check
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1669620710
+Architecture: x86_64
+Installed-Size: 2346
+Filename: shadowsocksr-libev-ssr-check_2.5.6-9_x86_64.ipk
+Size: 3068
+SHA256sum: 39a2b304ef22ca005f5b7d6c3fec111540e66ef0dc02b9340ea92a83233416f5
+Description:  shadowsocksr-libev ssr-check
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/passwall/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-local
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1669620710
+Architecture: x86_64
+Installed-Size: 61676
+Filename: shadowsocksr-libev-ssr-local_2.5.6-9_x86_64.ipk
+Size: 62530
+SHA256sum: f817d0e48cd4db52875071154590fada55b3dd46e536a4d51d623fdc86e212a9
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-nat
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/passwall/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-nat
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1669620710
+Architecture: x86_64
+Installed-Size: 2230
+Filename: shadowsocksr-libev-ssr-nat_2.5.6-9_x86_64.ipk
+Size: 2985
+SHA256sum: a2a761617d1693b3235f24cbfa7f32e6817bca4aa0a35dc816c2cbd1f66c4719
+Description:  shadowsocksr-libev ssr-nat
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/passwall/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-redir
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1669620710
+Architecture: x86_64
+Installed-Size: 55610
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_x86_64.ipk
+Size: 56408
+SHA256sum: c0d18906fbbc699b40c998b4fbd644faf871cd5b5c9ba439468ffec5fd210dbc
+Description:  shadowsocksr-libev ssr-redir
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/passwall/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-server
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1669620710
+Architecture: x86_64
+Installed-Size: 65285
+Filename: shadowsocksr-libev-ssr-server_2.5.6-9_x86_64.ipk
+Size: 66111
+SHA256sum: 186357ac0769ec5694f12357248eaa88168a9b598ce1250f416fe1fd63d145fe
+Description:  shadowsocksr-libev ssr-server
+
+Package: simple-obfs-server
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+Source: feeds/passwall/simple-obfs
+SourceName: simple-obfs-server
+License: GPL-3.0-or-later
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1669620710
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: x86_64
+Installed-Size: 32431
+Filename: simple-obfs-server_0.0.5-1_x86_64.ipk
+Size: 33292
+SHA256sum: 171a6e956827922b614a1b3e1320f6e3f57ba9bf1f80649b93a066cedd7ab036
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: simple-obfs
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+Source: feeds/passwall/simple-obfs
+SourceName: simple-obfs
+License: GPL-3.0-or-later
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1669620710
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: x86_64
+Installed-Size: 30210
+Filename: simple-obfs_0.0.5-1_x86_64.ipk
+Size: 30976
+SHA256sum: eb648e685960333b8a331d4904385f17cbb2100a12d437d3946ae6d6db0a12de
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+Source: feeds/passwall/tcping
+SourceName: tcping
+License: GPL-2.0-only
+LicenseFiles: license.txt
+Section: net
+SourceDateEpoch: 1669620710
+Architecture: x86_64
+Installed-Size: 3691
+Filename: tcping_0.3-1_x86_64.ipk
+Size: 4406
+SHA256sum: 6aa1b882389a9e4d9236b08458360890881f1dfa6d712ba0039aca62d35365d2
+Description:  tcping measures the latency of a tcp-connection
+
+Package: v2ray-geoip
+Version: 202210200105-1
+Depends: libc
+Source: feeds/passwall/v2ray-geodata
+SourceName: v2ray-geoip
+License: CC-BY-SA-4.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1669620710
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 2264899
+Filename: v2ray-geoip_202210200105-1_all.ipk
+Size: 1984336
+SHA256sum: bc8e7c69879fb48627b91603491dfd6ebb689f43f54d01678ff5f5b3061ed370
+Description:  GeoIP List for V2Ray
+
+Package: v2ray-geosite
+Version: 20221023064040-1
+Depends: libc
+Source: feeds/passwall/v2ray-geodata
+SourceName: v2ray-geosite
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1669620710
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 420336
+Filename: v2ray-geosite_20221023064040-1_all.ipk
+Size: 420090
+SHA256sum: 7a8df27b10634bbc6aa8dbd23a1cd01e6a0ba7eab9b9281ff4ca2ba365b5c492
+Description:  Geosite List for V2Ray
+
+Package: v2ray-plugin
+Version: 5.1.0-1
+Depends: libc, ca-bundle
+Source: feeds/passwall/v2ray-plugin
+SourceName: v2ray-plugin
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1669620710
+Maintainer: madeye <max.c.lv@gmail.com>
+Architecture: x86_64
+Installed-Size: 4996414
+Filename: v2ray-plugin_5.1.0-1_x86_64.ipk
+Size: 4987105
+SHA256sum: 7949e4988097e512b49e6410691c1cabfbddd689c962cdeee7868af374c553b9
+Description:  SIP003 plugin for shadowsocks, based on v2ray
+

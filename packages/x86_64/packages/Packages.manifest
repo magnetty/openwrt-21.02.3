@@ -1,0 +1,2491 @@
+Package: acl
+Version: 2.2.53-1
+Depends: libc, libacl
+Source: feeds/packages/utils/acl
+SourceName: acl
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: doc/COPYING doc/COPYING.LGPL
+Section: utils
+SourceDateEpoch: 1614187565
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: x86_64
+Installed-Size: 19313
+Filename: acl_2.2.53-1_x86_64.ipk
+Size: 20072
+SHA256sum: e3b00dd29024c6c1633680dc0bd290a85cbfec144725fa33fb6440edaa9a0d30
+Description:  Access control list support
+ This package provides ACL manipulation utilities
+ - chacl
+ - getfacl
+ - setfacl
+
+Package: attr
+Version: 2.4.48-2
+Depends: libc, libattr
+Source: feeds/packages/utils/attr
+SourceName: attr
+License: GPL-2.0-or-later
+LicenseFiles: doc/COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: x86_64
+Installed-Size: 11796
+Filename: attr_2.4.48-2_x86_64.ipk
+Size: 12528
+SHA256sum: 5a6bcf7727925da66ccc21cb64694b003983b62ad205cef8bf46d3c32782736f
+Description:  Extended attributes support
+ This package provides xattr manipulation utilities
+ - attr
+ - getfattr
+ - setfattr
+
+Package: cgi-io
+Version: 2021-09-08-98cef9dd-20
+Depends: libc, libubox20210516, libubus20210630
+Source: feeds/packages/net/cgi-io
+SourceName: cgi-io
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1631131599
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: x86_64
+Installed-Size: 8834
+Filename: cgi-io_2021-09-08-98cef9dd-20_x86_64.ipk
+Size: 9621
+SHA256sum: 3c32deb06bf5d6e8c518ff7a00144111aefd48a1e3f48b0252d7998303231805
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: coreutils-b2sum
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-b2sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 29098
+Filename: coreutils-b2sum_8.32-6_x86_64.ipk
+Size: 29890
+SHA256sum: 273de2b668775c419deff865bcf94979448faeacc45154bf4a5407da5e54d4d7
+Description:  Full version of standard GNU b2sum utility.
+
+Package: coreutils-base32
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-base32
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 23310
+Filename: coreutils-base32_8.32-6_x86_64.ipk
+Size: 24053
+SHA256sum: a436f3416219dd14dd510a413587f34f98ae7056ea893d114443fa02e828b796
+Description:  Full version of standard GNU base32 utility.
+
+Package: coreutils-base64
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/base64:/usr/libexec/base64-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-base64
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 23282
+Filename: coreutils-base64_8.32-6_x86_64.ipk
+Size: 24054
+SHA256sum: 4b5206eef14951ce8300dd30e928e0f477b68f4750a2ddbf5853cc004a7f3785
+Description:  Full version of standard GNU base64 utility.
+
+Package: coreutils-basename
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/basename:/usr/libexec/basename-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-basename
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 20573
+Filename: coreutils-basename_8.32-6_x86_64.ipk
+Size: 21340
+SHA256sum: fee2ac59e4b505e95de389fa18a3056ce0d5980423fb00128d2410fbb500b926
+Description:  Full version of standard GNU basename utility.
+
+Package: coreutils-basenc
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-basenc
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 26291
+Filename: coreutils-basenc_8.32-6_x86_64.ipk
+Size: 27048
+SHA256sum: 167eb433eaea9ce56128d0b8966ae5109b4f83a7834c185c908e792ae3a2246d
+Description:  Full version of standard GNU basenc utility.
+
+Package: coreutils-cat
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/cat:/usr/libexec/cat-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-cat
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 22141
+Filename: coreutils-cat_8.32-6_x86_64.ipk
+Size: 22907
+SHA256sum: f563defcd421f71347f5787e75aa87456cd77516fcc6254a060e09d94107745d
+Description:  Full version of standard GNU cat utility.
+
+Package: coreutils-chcon
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/chcon:/usr/libexec/chcon-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-chcon
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 33143
+Filename: coreutils-chcon_8.32-6_x86_64.ipk
+Size: 33978
+SHA256sum: aa65c96166e5ec11dd0d30a5108e47e6a8e78c8e2cb61e862ce232f236301edd
+Description:  Full version of standard GNU chcon utility.
+
+Package: coreutils-chgrp
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/chgrp:/usr/libexec/chgrp-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-chgrp
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 34845
+Filename: coreutils-chgrp_8.32-6_x86_64.ipk
+Size: 35676
+SHA256sum: afd89fd9c14ec6e034ffa7c29564275db7f5bfcb34ec6919e4b4f23236d719e5
+Description:  Full version of standard GNU chgrp utility.
+
+Package: coreutils-chmod
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/chmod:/usr/libexec/chmod-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-chmod
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 32005
+Filename: coreutils-chmod_8.32-6_x86_64.ipk
+Size: 32852
+SHA256sum: 06ba7fcdfaaa03b70e22ef043bf399cc8367956e08f1e44791bf3778d0e147d4
+Description:  Full version of standard GNU chmod utility.
+
+Package: coreutils-chown
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/chown:/usr/libexec/chown-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-chown
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 35753
+Filename: coreutils-chown_8.32-6_x86_64.ipk
+Size: 36607
+SHA256sum: 0c5f3a4480692e6f70f192f1a5d692e15369273d6ef6bc33004b41612061f053
+Description:  Full version of standard GNU chown utility.
+
+Package: coreutils-chroot
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/sbin/chroot:/usr/libexec/chroot-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-chroot
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 28692
+Filename: coreutils-chroot_8.32-6_x86_64.ipk
+Size: 29487
+SHA256sum: 4e4febf0318d11bd395093f518cb17f6cb2d81a94915070cf4eb0ad046aa0be8
+Description:  Full version of standard GNU chroot utility.
+
+Package: coreutils-cksum
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/cksum:/usr/libexec/cksum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-cksum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 21800
+Filename: coreutils-cksum_8.32-6_x86_64.ipk
+Size: 22562
+SHA256sum: 78232cb5f9c6b5a5ac4e6eb5390426a24c00226ced9c2ee991fa74a727ef16ba
+Description:  Full version of standard GNU cksum utility.
+
+Package: coreutils-comm
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/comm:/usr/libexec/comm-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-comm
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 23379
+Filename: coreutils-comm_8.32-6_x86_64.ipk
+Size: 24151
+SHA256sum: be6f9756750743015ab311df93d469cf06468de4d8cab6860608624d63154df5
+Description:  Full version of standard GNU comm utility.
+
+Package: coreutils-cp
+Version: 8.32-6
+Depends: libc, coreutils, libacl
+Alternatives: 300:/bin/cp:/usr/libexec/cp-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-cp
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 52609
+Filename: coreutils-cp_8.32-6_x86_64.ipk
+Size: 53453
+SHA256sum: 6db6768bf963954501fac03d9c209797d4a94ba15410fc443b017a9fc53bf618
+Description:  Full version of standard GNU cp utility.
+
+Package: coreutils-csplit
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-csplit
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 55826
+Filename: coreutils-csplit_8.32-6_x86_64.ipk
+Size: 56693
+SHA256sum: 5ae86fa6bf1b5769773ae2983feee490b734cfcd15ffeb98ce84a710590673bc
+Description:  Full version of standard GNU csplit utility.
+
+Package: coreutils-cut
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/cut:/usr/libexec/cut-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-cut
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 24262
+Filename: coreutils-cut_8.32-6_x86_64.ipk
+Size: 25023
+SHA256sum: 8a9bd30ec3a68f547eed0777ec4815c44b467c105878ebebbba5f2f12e47abbc
+Description:  Full version of standard GNU cut utility.
+
+Package: coreutils-date
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/date:/usr/libexec/date-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-date
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 42963
+Filename: coreutils-date_8.32-6_x86_64.ipk
+Size: 43795
+SHA256sum: b8fac32f64ae255a41d9806445a0fc18a1131827c170f14a9d7583599ea627d7
+Description:  Full version of standard GNU date utility.
+
+Package: coreutils-dd
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/dd:/usr/libexec/dd-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-dd
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 34268
+Filename: coreutils-dd_8.32-6_x86_64.ipk
+Size: 35120
+SHA256sum: 1da1041cd46e7b616b338f5ec8663df61e5ea6d2bf4cee8e8832117360c60c2c
+Description:  Full version of standard GNU dd utility.
+
+Package: coreutils-df
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/df:/usr/libexec/df-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-df
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 40925
+Filename: coreutils-df_8.32-6_x86_64.ipk
+Size: 41739
+SHA256sum: 380d023316081406baf6f2716f5a4278102007dcc61fbdac9f0c2643f2a7d105
+Description:  Full version of standard GNU df utility.
+
+Package: coreutils-dir
+Version: 8.32-6
+Depends: libc, coreutils, libacl, libcap
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-dir
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 64932
+Filename: coreutils-dir_8.32-6_x86_64.ipk
+Size: 65779
+SHA256sum: 5c3eeee7d91f0a51db5b2c796b1e011426667b7e9caf556c3fbc88a026569702
+Description:  Full version of standard GNU dir utility.
+
+Package: coreutils-dircolors
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-dircolors
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 30336
+Filename: coreutils-dircolors_8.32-6_x86_64.ipk
+Size: 31102
+SHA256sum: b056f2db065243695e31f1204fefccd43068868aac06bb3bef47ac6c7c83b544
+Description:  Full version of standard GNU dircolors utility.
+
+Package: coreutils-dirname
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/dirname:/usr/libexec/dirname-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-dirname
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 20208
+Filename: coreutils-dirname_8.32-6_x86_64.ipk
+Size: 21028
+SHA256sum: 7052803a0223d716ce99f24697af735a1f1c4a3b8cf907269f38525dec546620
+Description:  Full version of standard GNU dirname utility.
+
+Package: coreutils-du
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/du:/usr/libexec/du-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-du
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 83162
+Filename: coreutils-du_8.32-6_x86_64.ipk
+Size: 84050
+SHA256sum: 18d8c8b03cc4c6a8697351cf306759415602a9cd9e505ccbf551693c9c4db675
+Description:  Full version of standard GNU du utility.
+
+Package: coreutils-echo
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/echo:/usr/libexec/echo-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-echo
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 18601
+Filename: coreutils-echo_8.32-6_x86_64.ipk
+Size: 19405
+SHA256sum: c40457ebf713a73bfd7d1ae75da0eb945ccc767cf3a74417adbf672cab26db60
+Description:  Full version of standard GNU echo utility.
+
+Package: coreutils-env
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/env:/usr/libexec/env-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-env
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 25153
+Filename: coreutils-env_8.32-6_x86_64.ipk
+Size: 25936
+SHA256sum: 1fe5379da80dbafcfee0964c64892afa40bd0dd2279432baf55843f74887faa9
+Description:  Full version of standard GNU env utility.
+
+Package: coreutils-expand
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/expand:/usr/libexec/expand-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-expand
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 21991
+Filename: coreutils-expand_8.32-6_x86_64.ipk
+Size: 22753
+SHA256sum: 82620d0bc6ffd836b6c58640d71f52900cde356cfbe2cac05127121d15e640db
+Description:  Full version of standard GNU expand utility.
+
+Package: coreutils-expr
+Version: 8.32-6
+Depends: libc, coreutils, libgmp10
+Alternatives: 300:/usr/bin/expr:/usr/libexec/expr-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-expr
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 54064
+Filename: coreutils-expr_8.32-6_x86_64.ipk
+Size: 54959
+SHA256sum: bdbe40dd9e0b80e1f3fc4d09aff2a411db70deb38d3065a39648d8f6bf13f4c8
+Description:  Full version of standard GNU expr utility.
+
+Package: coreutils-factor
+Version: 8.32-6
+Depends: libc, coreutils, libgmp10
+Alternatives: 300:/usr/bin/factor:/usr/libexec/factor-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-factor
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 41114
+Filename: coreutils-factor_8.32-6_x86_64.ipk
+Size: 41968
+SHA256sum: 3ce6072679fd31f8211fb1b561eba4bd6aede284040a89d9292c9a0264fca9c8
+Description:  Full version of standard GNU factor utility.
+
+Package: coreutils-false
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/false:/usr/libexec/false-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-false
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 17544
+Filename: coreutils-false_8.32-6_x86_64.ipk
+Size: 18344
+SHA256sum: e465fd8434819095f85680c6118a426481114933495c8f43a7353420ed0e7980
+Description:  Full version of standard GNU false utility.
+
+Package: coreutils-fmt
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-fmt
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 23966
+Filename: coreutils-fmt_8.32-6_x86_64.ipk
+Size: 24696
+SHA256sum: b630dafd0c3f33b21d2569259b60a4a58ab198128a0c902c74bc3122167bd5b2
+Description:  Full version of standard GNU fmt utility.
+
+Package: coreutils-fold
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/fold:/usr/libexec/fold-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-fold
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 21662
+Filename: coreutils-fold_8.32-6_x86_64.ipk
+Size: 22423
+SHA256sum: 4a07e965d720fd34a9c93d459ab4aed0866857dbf2504510aaa50d6cc0ca63ca
+Description:  Full version of standard GNU fold utility.
+
+Package: coreutils-groups
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/groups:/usr/libexec/groups-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-groups
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 21002
+Filename: coreutils-groups_8.32-6_x86_64.ipk
+Size: 21780
+SHA256sum: f5920698f6df1bf74b380ec1c10d28a5a032d7ef288c7ce4972f9de9371c18a2
+Description:  Full version of standard GNU groups utility.
+
+Package: coreutils-head
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/head:/usr/libexec/head-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-head
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 24709
+Filename: coreutils-head_8.32-6_x86_64.ipk
+Size: 25481
+SHA256sum: 2a8068e4f2ce220b22edf4a35e50592b5c51f368e69b0d6ab6d792a1eced1b4f
+Description:  Full version of standard GNU head utility.
+
+Package: coreutils-hostid
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/hostid:/usr/libexec/hostid-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-hostid
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 19884
+Filename: coreutils-hostid_8.32-6_x86_64.ipk
+Size: 20700
+SHA256sum: 9f37a9f75b90a35607b4e8bfaf6c2eb52b570ce2da40cdf7589d207d49b9d9ec
+Description:  Full version of standard GNU hostid utility.
+
+Package: coreutils-id
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/id:/usr/libexec/id-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-id
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 23421
+Filename: coreutils-id_8.32-6_x86_64.ipk
+Size: 24186
+SHA256sum: 6b6d17698be219ae5c497b4bf7817ceb5de1f489d2960fb08bb0654b1f29352a
+Description:  Full version of standard GNU id utility.
+
+Package: coreutils-install
+Version: 8.32-6
+Depends: libc, coreutils, libacl
+Alternatives: 300:/usr/bin/install:/usr/libexec/install-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-install
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 54875
+Filename: coreutils-install_8.32-6_x86_64.ipk
+Size: 55744
+SHA256sum: 0d951beaf264e5a4f9548b9ee60fa394a2b8521420ac5aab2b6027fbf6ce6123
+Description:  Full version of standard GNU install utility.
+
+Package: coreutils-join
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-join
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 26717
+Filename: coreutils-join_8.32-6_x86_64.ipk
+Size: 27519
+SHA256sum: 0496f234c46f5aa2db740b8f53d913f6547972e722e8df304be403ad9a75d4c5
+Description:  Full version of standard GNU join utility.
+
+Package: coreutils-kill
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/kill:/usr/libexec/kill-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-kill
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 21987
+Filename: coreutils-kill_8.32-6_x86_64.ipk
+Size: 22745
+SHA256sum: 21b6ed11ad17f28c2c86a653b817231c04375a7eabe5d4fcfe43a6ee631f360f
+Description:  Full version of standard GNU kill utility.
+
+Package: coreutils-link
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/link:/usr/libexec/link-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-link
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 20095
+Filename: coreutils-link_8.32-6_x86_64.ipk
+Size: 20856
+SHA256sum: 54296675ca08cd780ebe4db6b196660ba686dd730d8f6b854bb38fa3157af9ee
+Description:  Full version of standard GNU link utility.
+
+Package: coreutils-ln
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/ln:/usr/libexec/ln-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-ln
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 36298
+Filename: coreutils-ln_8.32-6_x86_64.ipk
+Size: 37149
+SHA256sum: 044780491acf4961eaebe2d881f22e4e1ad4eb396b766f3697a93ce67d86eec3
+Description:  Full version of standard GNU ln utility.
+
+Package: coreutils-logname
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/logname:/usr/libexec/logname-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-logname
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 19870
+Filename: coreutils-logname_8.32-6_x86_64.ipk
+Size: 20692
+SHA256sum: 9999ccaf4601f2716eb6fd7fe9ace80b618ed855f3a1af77492d13de99ab0951
+Description:  Full version of standard GNU logname utility.
+
+Package: coreutils-ls
+Version: 8.32-6
+Depends: libc, coreutils, libacl, libcap
+Alternatives: 300:/bin/ls:/usr/libexec/ls-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-ls
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 64945
+Filename: coreutils-ls_8.32-6_x86_64.ipk
+Size: 65827
+SHA256sum: 87c259831ebec88b1d270fa13a85a8b4b570fa839a7ab9ecdb7993da326e933f
+Description:  Full version of standard GNU ls utility.
+
+Package: coreutils-md5sum
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/md5sum:/usr/libexec/md5sum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-md5sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 26077
+Filename: coreutils-md5sum_8.32-6_x86_64.ipk
+Size: 26859
+SHA256sum: 91babe9cfeb30b6eef0dfe1f47beacc0aeba3f22a47bd026f87645c303c8e319
+Description:  Full version of standard GNU md5sum utility.
+
+Package: coreutils-mkdir
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/mkdir:/usr/libexec/mkdir-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-mkdir
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 23975
+Filename: coreutils-mkdir_8.32-6_x86_64.ipk
+Size: 24747
+SHA256sum: a9b293466335de26fb0af031eba180b79833496196a681c8218d1162f3e857e8
+Description:  Full version of standard GNU mkdir utility.
+
+Package: coreutils-mkfifo
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/mkfifo:/usr/libexec/mkfifo-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-mkfifo
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 21154
+Filename: coreutils-mkfifo_8.32-6_x86_64.ipk
+Size: 21928
+SHA256sum: 86242443f726bb2923ccf7c476fb07d5115dd8a7a87c9bdc5101fa3dc2b11033
+Description:  Full version of standard GNU mkfifo utility.
+
+Package: coreutils-mknod
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/mknod:/usr/libexec/mknod-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-mknod
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 22581
+Filename: coreutils-mknod_8.32-6_x86_64.ipk
+Size: 23359
+SHA256sum: 0a7d2c3ad76d3c9d5b997f68533dd849483cacae1c94bed4a049437a1f880933
+Description:  Full version of standard GNU mknod utility.
+
+Package: coreutils-mktemp
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/mktemp:/usr/libexec/mktemp-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-mktemp
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 24892
+Filename: coreutils-mktemp_8.32-6_x86_64.ipk
+Size: 25680
+SHA256sum: f1f2f04ae0a9c8dcff73f828da1168e0a02c3abe6820ca718c4173cc93d7cee4
+Description:  Full version of standard GNU mktemp utility.
+
+Package: coreutils-mv
+Version: 8.32-6
+Depends: libc, coreutils, libacl
+Alternatives: 300:/bin/mv:/usr/libexec/mv-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-mv
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 56356
+Filename: coreutils-mv_8.32-6_x86_64.ipk
+Size: 57237
+SHA256sum: c9ce9967a2f7e4d5fec2111de410747f95aaed74c2138bc02bc48f394ec5e127
+Description:  Full version of standard GNU mv utility.
+
+Package: coreutils-nice
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/nice:/usr/libexec/nice-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-nice
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 21146
+Filename: coreutils-nice_8.32-6_x86_64.ipk
+Size: 21904
+SHA256sum: e5fb19555526ddea566af5c41e5c1e14849fd30aea9d5d9f5f29883c6759865e
+Description:  Full version of standard GNU nice utility.
+
+Package: coreutils-nl
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/nl:/usr/libexec/nl-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-nl
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 52477
+Filename: coreutils-nl_8.32-6_x86_64.ipk
+Size: 53353
+SHA256sum: 8e654bec5f8ecbbcfa7df1315473bcd09c75e6f0f94f57741ed777f3b7af1fb1
+Description:  Full version of standard GNU nl utility.
+
+Package: coreutils-nohup
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/nohup:/usr/libexec/nohup-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-nohup
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 21655
+Filename: coreutils-nohup_8.32-6_x86_64.ipk
+Size: 22422
+SHA256sum: fbe1de36999c916285bc61484a03bc92c26bf515e020c919000be1a25e03de1b
+Description:  Full version of standard GNU nohup utility.
+
+Package: coreutils-nproc
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/nproc:/usr/libexec/nproc-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-nproc
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 21069
+Filename: coreutils-nproc_8.32-6_x86_64.ipk
+Size: 21827
+SHA256sum: 4002fa76f5fa4ba7c12de806948481ccbb700d42ede8f851da969b8354883f24
+Description:  Full version of standard GNU nproc utility.
+
+Package: coreutils-numfmt
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-numfmt
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 31045
+Filename: coreutils-numfmt_8.32-6_x86_64.ipk
+Size: 31819
+SHA256sum: b593bb47c5595da267e7f3b2f4439de6752a835b49f0e555203e0ef5543529e0
+Description:  Full version of standard GNU numfmt utility.
+
+Package: coreutils-od
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/od:/usr/libexec/od-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-od
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 32148
+Filename: coreutils-od_8.32-6_x86_64.ipk
+Size: 32952
+SHA256sum: f50fbab25b4d5f45b673a34737ffd7d5c3acdf7656b66ec4988bcd867e8a8f0f
+Description:  Full version of standard GNU od utility.
+
+Package: coreutils-paste
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/paste:/usr/libexec/paste-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-paste
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 21474
+Filename: coreutils-paste_8.32-6_x86_64.ipk
+Size: 22230
+SHA256sum: 25c8e475f90d5110a5140aafd54bceaa27b072327b2b6f296676d92d4417f944
+Description:  Full version of standard GNU paste utility.
+
+Package: coreutils-pathchk
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-pathchk
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 20832
+Filename: coreutils-pathchk_8.32-6_x86_64.ipk
+Size: 21578
+SHA256sum: d07d00cd4596a01669b1cdd6e4e5965ad27b787bc123c89297a6bfcd502f647e
+Description:  Full version of standard GNU pathchk utility.
+
+Package: coreutils-pinky
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-pinky
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 22563
+Filename: coreutils-pinky_8.32-6_x86_64.ipk
+Size: 23302
+SHA256sum: 65106c58cb3aef93c36377c381868404d3517a7778cb0a8d781b1047357a38cb
+Description:  Full version of standard GNU pinky utility.
+
+Package: coreutils-pr
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-pr
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 36139
+Filename: coreutils-pr_8.32-6_x86_64.ipk
+Size: 36960
+SHA256sum: cb5db3817083f2464b1ff437d788288f641ed3932ec8e9a0c30637affd636ccc
+Description:  Full version of standard GNU pr utility.
+
+Package: coreutils-printenv
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/printenv:/usr/libexec/printenv-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-printenv
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 20095
+Filename: coreutils-printenv_8.32-6_x86_64.ipk
+Size: 20919
+SHA256sum: 88f515503cab4000f37d37af1e6ff5e360f2b3f30a66bd05c729f5a5bfaecd51
+Description:  Full version of standard GNU printenv utility.
+
+Package: coreutils-printf
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/printf:/usr/libexec/printf-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-printf
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 23164
+Filename: coreutils-printf_8.32-6_x86_64.ipk
+Size: 23931
+SHA256sum: 6e02823662382d1ee7aa9c7eaa977482c37a85ac133ff70ea1d0a6fee16f939a
+Description:  Full version of standard GNU printf utility.
+
+Package: coreutils-ptx
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-ptx
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 58472
+Filename: coreutils-ptx_8.32-6_x86_64.ipk
+Size: 59377
+SHA256sum: ca8cd3767abda69f0ac6599a459a5c58d8e7b7f6ac4cd3c74f02f3c3c4d5c5b8
+Description:  Full version of standard GNU ptx utility.
+
+Package: coreutils-pwd
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/pwd:/usr/libexec/pwd-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-pwd
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 23425
+Filename: coreutils-pwd_8.32-6_x86_64.ipk
+Size: 24191
+SHA256sum: e11353662f73a46df9394ccbb8b3b5879330bd8cc5ae52fe244e320bcec2f2d7
+Description:  Full version of standard GNU pwd utility.
+
+Package: coreutils-readlink
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/readlink:/usr/libexec/readlink-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-readlink
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 26121
+Filename: coreutils-readlink_8.32-6_x86_64.ipk
+Size: 26912
+SHA256sum: f3b96c60e92042e75f71ed41a5ee5f7aaa8a4b47add9b86b892394725b2d7ee4
+Description:  Full version of standard GNU readlink utility.
+
+Package: coreutils-realpath
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/realpath:/usr/libexec/realpath-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-realpath
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 27048
+Filename: coreutils-realpath_8.32-6_x86_64.ipk
+Size: 27824
+SHA256sum: 57baea056822eeae21d361a26489fd43364d4982ae12cb9dcb95d3df2642c7ff
+Description:  Full version of standard GNU realpath utility.
+
+Package: coreutils-rm
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/rm:/usr/libexec/rm-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-rm
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 33647
+Filename: coreutils-rm_8.32-6_x86_64.ipk
+Size: 34477
+SHA256sum: b52aee14cc6563de8b970fb227947a19d6a5044ee426e9c21f557755d868293e
+Description:  Full version of standard GNU rm utility.
+
+Package: coreutils-rmdir
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/rmdir:/usr/libexec/rmdir-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-rmdir
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 20782
+Filename: coreutils-rmdir_8.32-6_x86_64.ipk
+Size: 21546
+SHA256sum: d034d5ea2e85ba30237a692e2f5e9d292428e11fc8d098d4499af4f09875d55b
+Description:  Full version of standard GNU rmdir utility.
+
+Package: coreutils-runcon
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/runcon:/usr/libexec/runcon-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-runcon
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 20216
+Filename: coreutils-runcon_8.32-6_x86_64.ipk
+Size: 21041
+SHA256sum: 494401e4163b29871023247d72ad46fb0da0455da065373eeb964da3863cdcf6
+Description:  Full version of standard GNU runcon utility.
+
+Package: coreutils-seq
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/seq:/usr/libexec/seq-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-seq
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 25192
+Filename: coreutils-seq_8.32-6_x86_64.ipk
+Size: 25980
+SHA256sum: ee6a516e16abbdbd9527d8f0604e82d57103a2de760c82967c13f7fcd371ce17
+Description:  Full version of standard GNU seq utility.
+
+Package: coreutils-sha1sum
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sha1sum:/usr/libexec/sha1sum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sha1sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 27849
+Filename: coreutils-sha1sum_8.32-6_x86_64.ipk
+Size: 28636
+SHA256sum: aa2c199c141bac84e81801ed00d59a2b7a5048d0cf8f8e33f09dc9760892180a
+Description:  Full version of standard GNU sha1sum utility.
+
+Package: coreutils-sha224sum
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sha224sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 31645
+Filename: coreutils-sha224sum_8.32-6_x86_64.ipk
+Size: 32430
+SHA256sum: 165883817984ed6f16afe7fbeb43ac74369e9433acbf58fdb516027617b6297a
+Description:  Full version of standard GNU sha224sum utility.
+
+Package: coreutils-sha256sum
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sha256sum:/usr/libexec/sha256sum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sha256sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 31649
+Filename: coreutils-sha256sum_8.32-6_x86_64.ipk
+Size: 32464
+SHA256sum: fb5e6c1bf81e15810fb2ea8ce0caf1e799f71f12a7eb4ca32d2fade8cdd16b79
+Description:  Full version of standard GNU sha256sum utility.
+
+Package: coreutils-sha384sum
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sha384sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 34041
+Filename: coreutils-sha384sum_8.32-6_x86_64.ipk
+Size: 34847
+SHA256sum: 9329e1f0caeda4311437a93844ee9d788aa6310a6aa2c03bfa0e794eb66c7342
+Description:  Full version of standard GNU sha384sum utility.
+
+Package: coreutils-sha512sum
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sha512sum:/usr/libexec/sha512sum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sha512sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 34041
+Filename: coreutils-sha512sum_8.32-6_x86_64.ipk
+Size: 34879
+SHA256sum: 3c8a280d85a8b442f312191a5b2fd5da7ce2876053576cf3e66d321a0247f84b
+Description:  Full version of standard GNU sha512sum utility.
+
+Package: coreutils-shred
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/shred:/usr/libexec/shred-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-shred
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 31425
+Filename: coreutils-shred_8.32-6_x86_64.ipk
+Size: 32214
+SHA256sum: 10b2f19e5b5d6fc9add8457d55f9589c3ac0bab92979c023db8002e07aec4b95
+Description:  Full version of standard GNU shred utility.
+
+Package: coreutils-shuf
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/shuf:/usr/libexec/shuf-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-shuf
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 29664
+Filename: coreutils-shuf_8.32-6_x86_64.ipk
+Size: 30465
+SHA256sum: d18309e19f20a7cb5b396aaacd5fd1953f4f0ed08bbfc341ae087d2684a74308
+Description:  Full version of standard GNU shuf utility.
+
+Package: coreutils-sleep
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/sleep:/usr/libexec/sleep-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sleep
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 22399
+Filename: coreutils-sleep_8.32-6_x86_64.ipk
+Size: 23168
+SHA256sum: e192b11efa545fbbbc7d5ef6fc29201e086c8926a527a41a0a12c800ddcb96b7
+Description:  Full version of standard GNU sleep utility.
+
+Package: coreutils-sort
+Version: 8.32-6
+Depends: libc, coreutils, libpthread
+Alternatives: 300:/usr/bin/sort:/usr/libexec/sort-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sort
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 53633
+Filename: coreutils-sort_8.32-6_x86_64.ipk
+Size: 54514
+SHA256sum: 81884a8ab87d7142b3e9542643e52e3bd2d31017f775f3b4a3107c051996921c
+Description:  Full version of standard GNU sort utility.
+
+Package: coreutils-split
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/split:/usr/libexec/split-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-split
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 29773
+Filename: coreutils-split_8.32-6_x86_64.ipk
+Size: 30579
+SHA256sum: 47b07524693a6524198ea945a527420bb01280e27a90f3972ffdface40fce045
+Description:  Full version of standard GNU split utility.
+
+Package: coreutils-stat
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/stat:/usr/libexec/stat-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-stat
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 44018
+Filename: coreutils-stat_8.32-6_x86_64.ipk
+Size: 44808
+SHA256sum: 433aaad4cdccf493f9bcaaf8ee78559ea961f4af14e97ab0d61b0a4bcf3faebd
+Description:  Full version of standard GNU stat utility.
+
+Package: coreutils-stdbuf
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-stdbuf
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 24413
+Filename: coreutils-stdbuf_8.32-6_x86_64.ipk
+Size: 25138
+SHA256sum: 2e39ec708611d02971f1165d19354ce3ae9bd7ebca5e6b61c7b3a40e33430854
+Description:  Full version of standard GNU stdbuf utility.
+
+Package: coreutils-stty
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/stty:/usr/libexec/stty-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-stty
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 30389
+Filename: coreutils-stty_8.32-6_x86_64.ipk
+Size: 31158
+SHA256sum: 7d58d5d315659355a7426df6fb3d56e13176d6263e13eb4c0d7d5c55a11d8a8c
+Description:  Full version of standard GNU stty utility.
+
+Package: coreutils-sum
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sum:/usr/libexec/sum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 23828
+Filename: coreutils-sum_8.32-6_x86_64.ipk
+Size: 24601
+SHA256sum: 25fc4b7a0329da7e00ae6bbcaa4827a255a68d3891d4d0e4f4574ec6ed7297ed
+Description:  Full version of standard GNU sum utility.
+
+Package: coreutils-sync
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/sync:/usr/libexec/sync-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sync
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 20673
+Filename: coreutils-sync_8.32-6_x86_64.ipk
+Size: 21441
+SHA256sum: 7c1a3ebe6c863eca79bcb8e56744d4cf51db85668d222a2f63a619bb5b24f246
+Description:  Full version of standard GNU sync utility.
+
+Package: coreutils-tac
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tac:/usr/libexec/tac-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tac
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 52141
+Filename: coreutils-tac_8.32-6_x86_64.ipk
+Size: 53033
+SHA256sum: 310846c0768832589b113dc3d37b1b7a8bbe0e310bd0b05fa930fc0a21057a8e
+Description:  Full version of standard GNU tac utility.
+
+Package: coreutils-tail
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tail:/usr/libexec/tail-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tail
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 37134
+Filename: coreutils-tail_8.32-6_x86_64.ipk
+Size: 38011
+SHA256sum: beb43f0e466eac12e7d9fba8f13eb2d2e85ac56ed61eaf2b6baf810d0b3fdd79
+Description:  Full version of standard GNU tail utility.
+
+Package: coreutils-tee
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tee:/usr/libexec/tee-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tee
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 22131
+Filename: coreutils-tee_8.32-6_x86_64.ipk
+Size: 22903
+SHA256sum: 534b3662480a74989901fac55aa271b35ff1b7859a9eadfcaccda015fde4e26c
+Description:  Full version of standard GNU tee utility.
+
+Package: coreutils-test
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/test:/usr/libexec/test-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-test
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 21880
+Filename: coreutils-test_8.32-6_x86_64.ipk
+Size: 22649
+SHA256sum: 2bafde32cff839b1a9e50bea5bfac2ada84ba7f9377882334fc4ef8be10b1783
+Description:  Full version of standard GNU test utility.
+
+Package: coreutils-timeout
+Version: 8.32-6
+Depends: libc, coreutils, librt
+Alternatives: 300:/usr/bin/timeout:/usr/libexec/timeout-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-timeout
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 25031
+Filename: coreutils-timeout_8.32-6_x86_64.ipk
+Size: 25826
+SHA256sum: b9f8fd62cfd12f90a43650d13ca5579cb4ffc02c6770e93691b3222360963124
+Description:  Full version of standard GNU timeout utility.
+
+Package: coreutils-touch
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/touch:/usr/libexec/touch-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-touch
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 40165
+Filename: coreutils-touch_8.32-6_x86_64.ipk
+Size: 41021
+SHA256sum: 6d295cf28a82b0ed54be799e16b2f12ddd02585a01cbbf6e5d93ee34ec8671dc
+Description:  Full version of standard GNU touch utility.
+
+Package: coreutils-tr
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tr:/usr/libexec/tr-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tr
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 26126
+Filename: coreutils-tr_8.32-6_x86_64.ipk
+Size: 26911
+SHA256sum: ff4ab9df543b7fa3815f72fef5ada5ad4913f41037a00f942051e09a73fc54b1
+Description:  Full version of standard GNU tr utility.
+
+Package: coreutils-true
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/true:/usr/libexec/true-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-true
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 17539
+Filename: coreutils-true_8.32-6_x86_64.ipk
+Size: 18338
+SHA256sum: 14d3494da8abb0396103bb1842b31111759c7e044f4e4e070abd67f18aab0aaa
+Description:  Full version of standard GNU true utility.
+
+Package: coreutils-truncate
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/truncate:/usr/libexec/truncate-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-truncate
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 22435
+Filename: coreutils-truncate_8.32-6_x86_64.ipk
+Size: 23208
+SHA256sum: ee39ab1c8c1d35d5165df39c7977538f171609cfdfc937dceb3d9242920fce1c
+Description:  Full version of standard GNU truncate utility.
+
+Package: coreutils-tsort
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tsort
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 22247
+Filename: coreutils-tsort_8.32-6_x86_64.ipk
+Size: 22989
+SHA256sum: d0cf8f5e7885d41f456efa9372e257684ca336d33389b0471c45f04c1fac3586
+Description:  Full version of standard GNU tsort utility.
+
+Package: coreutils-tty
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tty:/usr/libexec/tty-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tty
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 19779
+Filename: coreutils-tty_8.32-6_x86_64.ipk
+Size: 20606
+SHA256sum: aa3a59339e46cf69d256bbe731c1622e4a0bda350e68e8d92b4e301c824ef27e
+Description:  Full version of standard GNU tty utility.
+
+Package: coreutils-uname
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/uname:/usr/libexec/uname-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-uname
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 20594
+Filename: coreutils-uname_8.32-6_x86_64.ipk
+Size: 21348
+SHA256sum: 4b35cbf74f18bc86e7dee0cfd015e4db9f8654c2a5e30ef07a1b701b4f47fe4b
+Description:  Full version of standard GNU uname utility.
+
+Package: coreutils-unexpand
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/unexpand:/usr/libexec/unexpand-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-unexpand
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 22229
+Filename: coreutils-unexpand_8.32-6_x86_64.ipk
+Size: 23003
+SHA256sum: 6fc9ba9194223c31e7c119bed680b561f1df7c5e24cfd66b39bb748453cf497d
+Description:  Full version of standard GNU unexpand utility.
+
+Package: coreutils-uniq
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/uniq:/usr/libexec/uniq-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-uniq
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 24642
+Filename: coreutils-uniq_8.32-6_x86_64.ipk
+Size: 25426
+SHA256sum: 3c2bc256ec207ce240ac46a1584f9242cc7a4bc06fba339e8ad7598e8571e3ff
+Description:  Full version of standard GNU uniq utility.
+
+Package: coreutils-unlink
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/unlink:/usr/libexec/unlink-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-unlink
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 20042
+Filename: coreutils-unlink_8.32-6_x86_64.ipk
+Size: 20813
+SHA256sum: 87f7fa6eb072a74b44df55c581b2ea36453a73755a0ca68a8fa87b2f6ac162f7
+Description:  Full version of standard GNU unlink utility.
+
+Package: coreutils-uptime
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/uptime:/usr/libexec/uptime-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-uptime
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 26428
+Filename: coreutils-uptime_8.32-6_x86_64.ipk
+Size: 27224
+SHA256sum: 001bbe7e02e66be5573a180ffdcf58fd41d831f9f850b041f6eead60b4eab3bf
+Description:  Full version of standard GNU uptime utility.
+
+Package: coreutils-users
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/users:/usr/libexec/users-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-users
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 20717
+Filename: coreutils-users_8.32-6_x86_64.ipk
+Size: 21474
+SHA256sum: 8181cca5e7eb5d4ae171343bb3a7cc687af7c572166fc4ddc64e531d6ab62dda
+Description:  Full version of standard GNU users utility.
+
+Package: coreutils-vdir
+Version: 8.32-6
+Depends: libc, coreutils, libacl, libcap
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-vdir
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 64931
+Filename: coreutils-vdir_8.32-6_x86_64.ipk
+Size: 65779
+SHA256sum: e6e6dc83d46f37b52ba3f9aca6b1de33fd9c30cf49ece0e8e14bdb7a11bf1a01
+Description:  Full version of standard GNU vdir utility.
+
+Package: coreutils-wc
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/wc:/usr/libexec/wc-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-wc
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 25794
+Filename: coreutils-wc_8.32-6_x86_64.ipk
+Size: 26575
+SHA256sum: c7ddd2bfbf83d2f07f994fda83dbfa4fa226a3cae21f3b11340adcf034b7ace8
+Description:  Full version of standard GNU wc utility.
+
+Package: coreutils-who
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/who:/usr/libexec/who-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-who
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 23862
+Filename: coreutils-who_8.32-6_x86_64.ipk
+Size: 24631
+SHA256sum: 63f48924aedec412a663a0e01fdfc8ca7f5a66d9a08bd12447ee43a201da3c2d
+Description:  Full version of standard GNU who utility.
+
+Package: coreutils-whoami
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/whoami:/usr/libexec/whoami-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-whoami
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 20095
+Filename: coreutils-whoami_8.32-6_x86_64.ipk
+Size: 20866
+SHA256sum: 052ac7db05ac781ac37508a08376dd054f9df70ac5cf73f193b60938dd9fed54
+Description:  Full version of standard GNU whoami utility.
+
+Package: coreutils-yes
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/yes:/usr/libexec/yes-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-yes
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 20406
+Filename: coreutils-yes_8.32-6_x86_64.ipk
+Size: 21162
+SHA256sum: e9bf53a943eb9741ce992d050a9901e615dabf54b98a795cd61e4de2bbd01d8a
+Description:  Full version of standard GNU yes utility.
+
+Package: coreutils
+Version: 8.32-6
+Depends: libc
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 96
+Filename: coreutils_8.32-6_x86_64.ipk
+Size: 963
+SHA256sum: 3dba98b82a91b4c5af5045141866ceb6ea614871ebecb72c88eb66060e0b2566
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: curl
+Version: 7.82.0-2
+Depends: libc, libcurl
+Source: feeds/packages/net/curl
+SourceName: curl
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1647622472
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: x86_64
+Installed-Size: 56854
+Filename: curl_7.82.0-2_x86_64.ipk
+Size: 57664
+SHA256sum: 03f8b6307c98c59d6ae631c931ef9797dc8367e0efb4bc6b4a630d12b912f1bb
+Description:  A client-side URL transfer utility
+
+Package: libacl
+Version: 2.2.53-1
+Depends: libc, libattr
+Source: feeds/packages/utils/acl
+SourceName: libacl
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: doc/COPYING doc/COPYING.LGPL
+Section: libs
+SourceDateEpoch: 1614187565
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: x86_64
+Installed-Size: 11865
+Filename: libacl_2.2.53-1_x86_64.ipk
+Size: 12630
+SHA256sum: b306ddd128de445c0192fab19e3a1ceb198ff6a883d0ba46148c1d0cadd57ac2
+Description:  Access control list support
+ This package provides libacl
+
+Package: libattr
+Version: 2.4.48-2
+Depends: libc
+Source: feeds/packages/utils/attr
+SourceName: libattr
+License: LGPL-2.1-or-later
+LicenseFiles: doc/COPYING.LGPL
+Section: libs
+SourceDateEpoch: 1614187565
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: x86_64
+Installed-Size: 6392
+Filename: libattr_2.4.48-2_x86_64.ipk
+Size: 7188
+SHA256sum: e722aa4da9ca2b32e0f13dd2f2df97ac4bb1bc9456085abfee6a53975a60c03d
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libcap-bin
+Version: 2.43-1
+Depends: libc, libcap
+Source: feeds/packages/libs/libcap
+SourceName: libcap-bin
+License: GPL-2.0-only
+LicenseFiles: License
+Section: libs
+SourceDateEpoch: 1614187565
+Maintainer: Paul Wassi <p.wassi@gmx.at>
+Architecture: x86_64
+Installed-Size: 12196
+Filename: libcap-bin_2.43-1_x86_64.ipk
+Size: 12894
+SHA256sum: 02bf9c8f14c73b169f7c6a26d7fd6ed2a06f1edff4cbb97a28ddd60875bb980c
+Description:  Linux capabilities
+ .
+ This package contains the libcap utilities.
+
+Package: libcap
+Version: 2.43-1
+Depends: libc
+Source: feeds/packages/libs/libcap
+SourceName: libcap
+License: GPL-2.0-only
+LicenseFiles: License
+Section: libs
+SourceDateEpoch: 1614187565
+Maintainer: Paul Wassi <p.wassi@gmx.at>
+Architecture: x86_64
+Installed-Size: 11339
+Filename: libcap_2.43-1_x86_64.ipk
+Size: 12077
+SHA256sum: 582173687376d6499c043ea706ad2f42e0b3246dac8114322b1983c1b902f5da
+Description:  Linux capabilities library library
+
+Package: libcares
+Version: 1.17.2-1
+Depends: libc
+Source: feeds/packages/libs/c-ares
+SourceName: libcares
+License: MIT
+LicenseFiles: LICENSE.md
+Section: libs
+SourceDateEpoch: 1629470767
+CPE-ID: cpe:/a:c-ares_project:c-ares
+Maintainer: Karl Palsson <karlp@etactica.com>
+Architecture: x86_64
+Installed-Size: 35743
+Filename: libcares_1.17.2-1_x86_64.ipk
+Size: 36657
+SHA256sum: 3795039508acb4cc004ac29de7b915550978fc67c256ef2bfaab079052b6d82f
+Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
+ 
+ C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
+ Netware, Android and many more operating systems.
+ 
+
+Package: libcurl4
+Version: 7.82.0-2
+Depends: libc, libwolfssl5.2.0.99a5b54a, libnghttp2-14, ca-bundle
+Provides: libcurl
+Source: feeds/packages/net/curl
+SourceName: libcurl
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1647622472
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: x86_64
+Installed-Size: 159471
+Filename: libcurl4_7.82.0-2_x86_64.ipk
+Size: 160279
+SHA256sum: 6b59c6aab600a19a25f92b3d9132e45d21dfff3d50e90c5729d6f06f9c96ca7b
+Description:  A client-side URL transfer library
+
+Package: libev
+Version: 4.31-1
+Depends: libc
+Source: feeds/packages/libs/libev
+SourceName: libev
+License: BSD-2-Clause
+Section: libs
+SourceDateEpoch: 1578577141
+Maintainer: Karl Palsson <karlp@tweak.net.au>
+Architecture: x86_64
+Installed-Size: 24824
+Filename: libev_4.31-1_x86_64.ipk
+Size: 25538
+SHA256sum: 5f6c8ed778a886ae2b067ed319b86475ae2508d196b13e06ff271fb518dd3ad7
+Description:  A full-featured and high-performance event loop that is loosely modelled after
+ libevent, but without its limitations and bugs.
+
+Package: libnghttp2-14
+Version: 1.43.0-1
+Depends: libc
+Provides: libnghttp2
+Source: feeds/packages/libs/nghttp2
+SourceName: libnghttp2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1612720536
+ABIVersion: -14
+Maintainer: Hans Dedecker <dedeckeh@gmail.com>
+Architecture: x86_64
+Installed-Size: 67679
+Filename: libnghttp2-14_1.43.0-1_x86_64.ipk
+Size: 67264
+SHA256sum: 2f922ee303713418ecda001d5faa4a28b7c56bbc1639d2b7cae543931a3024ce
+Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
+
+Package: libsodium
+Version: 1.0.18-4
+Depends: libc
+Source: feeds/packages/libs/libsodium
+SourceName: libsodium
+License: ISC
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1648330301
+Maintainer: Damiano Renfer <x9w2n7xnu@relay.firefox.com>
+Architecture: x86_64
+Installed-Size: 147134
+Filename: libsodium_1.0.18-4_x86_64.ipk
+Size: 148348
+SHA256sum: b132b48767052f89f9665637ad045f82beebacddcc1e4e003fe3e9ce632ac608
+Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
+ NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
+ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
+ The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
+ The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
+ And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: libudns
+Version: 0.4-1
+Depends: libc
+Source: feeds/packages/libs/udns
+SourceName: libudns
+License: LGPL-2.1
+Section: libs
+SourceDateEpoch: 1614187565
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 19002
+Filename: libudns_0.4-1_x86_64.ipk
+Size: 19785
+SHA256sum: 31bb5a0c2960c7433fc9c6dd7356363f95f3b6485c019ccae083e3206fcaa894
+Description:  UDNS is a stub DNS resolver library with ability to perform both syncronous
+ and asyncronous DNS queries.
+
+Package: shadowsocks-libev-config
+Version: 3.3.5-1
+Depends: libc
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-config
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1600679999
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 2711
+Filename: shadowsocks-libev-config_3.3.5-1_x86_64.ipk
+Size: 3497
+SHA256sum: ef0d58fa1f32a4cfe6447e8f193aa5dc4e766dc33f1d501d4666ab538ebda39f
+Description:  shadowsocks-libev config scripts
+
+Package: shadowsocks-libev-ss-local
+Version: 3.3.5-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libpcre
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-local
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1600679999
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 50468
+Filename: shadowsocks-libev-ss-local_3.3.5-1_x86_64.ipk
+Size: 51323
+SHA256sum: 0775c7578248a9fc7f4bd1530b70c2467a18207952e5f634ebb7b653c35423ab
+Description:  shadowsocks-libev ss-local
+
+Package: shadowsocks-libev-ss-redir
+Version: 3.3.5-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-redir
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1600679999
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 45164
+Filename: shadowsocks-libev-ss-redir_3.3.5-1_x86_64.ipk
+Size: 45981
+SHA256sum: 7bb533d0a5bbf870f2f244ba1e85e0415543e089cb63764213b1e9ffc58a5a5e
+Description:  shadowsocks-libev ss-redir
+
+Package: shadowsocks-libev-ss-rules
+Version: 3.3.5-1
+Depends: libc, ip, ipset, iptables-mod-tproxy, resolveip, shadowsocks-libev-ss-redir, shadowsocks-libev-config
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-rules
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1600679999
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 3255
+Filename: shadowsocks-libev-ss-rules_3.3.5-1_x86_64.ipk
+Size: 4134
+SHA256sum: e6ccbd2fb3fe3b1ce8b187855f9b2d0211ce8a1573cea2ba5bd5028a149089f1
+Description:  shadowsocks-libev ss-rules
+
+Package: shadowsocks-libev-ss-server
+Version: 3.3.5-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libcares, libpcre
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-server
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1600679999
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 55575
+Filename: shadowsocks-libev-ss-server_3.3.5-1_x86_64.ipk
+Size: 56389
+SHA256sum: 3b7a07069f49c7f0f4da7e20afb3aa2d2aad56d19912161220d1c3f7c4a0093c
+Description:  shadowsocks-libev ss-server
+
+Package: shadowsocks-libev-ss-tunnel
+Version: 3.3.5-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-tunnel
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1600679999
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 43348
+Filename: shadowsocks-libev-ss-tunnel_3.3.5-1_x86_64.ipk
+Size: 44233
+SHA256sum: bce38179774b2720023767ba5daa2e6ad49102a82a007b19c54abc2420d52a5e
+Description:  shadowsocks-libev ss-tunnel
+
+Package: udns-dnsget
+Version: 0.4-1
+Depends: libc, libudns
+Source: feeds/packages/libs/udns
+SourceName: udns-dnsget
+License: LGPL-2.1
+Section: utils
+SourceDateEpoch: 1614187565
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 8354
+Filename: udns-dnsget_0.4-1_x86_64.ipk
+Size: 9112
+SHA256sum: 9728ec2c0ce77d6b9e6e95b996896f842c92c88866ec11398ef1ca52bca2bde4
+Description:  a simple DNS query tool
+
+Package: udns-ex-rdns
+Version: 0.4-1
+Depends: libc, libudns
+Source: feeds/packages/libs/udns
+SourceName: udns-ex-rdns
+License: LGPL-2.1
+Section: utils
+SourceDateEpoch: 1614187565
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 2270
+Filename: udns-ex-rdns_0.4-1_x86_64.ipk
+Size: 2990
+SHA256sum: 0ed305d4b90726848330e9ebd31d0f589543e5abe0eb87bc7e08ece55e4e90f4
+Description:  a parallel rDNS resolver
+
+Package: udns-rblcheck
+Version: 0.4-1
+Depends: libc, libudns
+Source: feeds/packages/libs/udns
+SourceName: udns-rblcheck
+License: LGPL-2.1
+Section: utils
+SourceDateEpoch: 1614187565
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 4953
+Filename: udns-rblcheck_0.4-1_x86_64.ipk
+Size: 5684
+SHA256sum: a91710a109cfec64db1f5ed660f1a4469adf49db50418239ba951fbba85a68ac
+Description:  a simple DNSBL lookups tool
+
+Package: unzip
+Version: 6.0-8
+Depends: libc
+Source: feeds/packages/utils/unzip
+SourceName: unzip
+License: BSD-4-Clause
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:info-zip:unzip
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: x86_64
+Installed-Size: 108628
+Filename: unzip_6.0-8_x86_64.ipk
+Size: 109601
+SHA256sum: fcbbc746ccc334b2f34472c0ff15422c48a79ad775fac4e5bc1c46de2b59946b
+Description:  InfoZIP's unzip program. With the exception of multi-volume archives
+ (ie, .ZIP files that are split across several disks using PKZIP's /& option),
+ this can handle any file produced either by PKZIP, or the corresponding
+ InfoZIP zip program.
+
+Package: xray-core
+Version: 1.5.4-1
+Depends: libc, ca-bundle
+Source: feeds/packages/net/xray-core
+SourceName: xray-core
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1647876847
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 7119885
+Filename: xray-core_1.5.4-1_x86_64.ipk
+Size: 7105111
+SHA256sum: ab14130c22ec91faff70558fdbabdcc99964b62d6595c8304668d83d7c9d0d93
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: xray-example
+Version: 1.5.4-1
+Depends: libc, xray-core
+Source: feeds/packages/net/xray-core
+SourceName: xray-example
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1647876847
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 552
+Filename: xray-example_1.5.4-1_all.ipk
+Size: 1404
+SHA256sum: 1e91bbec04a7c3a5dc273a143edcf91a4d0ad546521fb2e7abdd52f27e4d46a6
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes example configuration files for xray-core.
+
+Package: xray-geodata
+Version: 1.5.4-1
+Depends: libc, xray-core
+Source: feeds/packages/net/xray-core
+SourceName: xray-geodata
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1647876847
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 3241782
+Filename: xray-geodata_1.5.4-1_all.ipk
+Size: 2562016
+SHA256sum: 6cc165658d18f980adfd77abc52b7957bf2a3dee2ca4826c653df488c9961983
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes GEO datas used for xray-core.
+
